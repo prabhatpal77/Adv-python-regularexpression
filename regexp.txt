@@ -1,0 +1,29 @@
+Regular Expressions:- Regular expressions are some special charectors. eachs and every regular expression
+charector contain its own meaning.
+By using regular expression charectors we can perform the data format validation and we can define url patterns
+for the web pages.
+in order to work with the regular expression patters we use perdefine functions of regular experssions.
+
+1. *-> it matches zero or mare occurences of its preceding character
+*->ab*c
+Ac
+Abc
+Abbc
+Abbbbbc
+2. +-> it mathes one or more occurences of its preceeding characters.
++->ab+c
+Ac #error
+Abc
+Abbc
+Abbbbbbc
+3. ?-> it matches zero or one occurencesof it preceding character.
+ab!c
+Ac
+AbbcAbbc #error
+
+Like this total 17 importent and many more regular expressions are in the python programming language we
+can use the regular expressions through the needs of the application.
+
+pip install re
+
+regex keyword is use for defining patterns.
